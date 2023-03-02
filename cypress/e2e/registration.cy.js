@@ -7,7 +7,7 @@ describe('Registration', () => {
       //click sign up
       cy.get('.header--right').contains('Sign up').click()
 
-      // fill the form complete the user registration
+      // fill the form to complete the user registration
       cy.get('form[data-test="form-registration_form_1"]').within(() => {
         const email = generateRandomEmail()
         const password = '14vayAkX63GR'
@@ -16,7 +16,7 @@ describe('Registration', () => {
         cy.get('input[data-test="input-password"]').type(password)
         cy.get('input[data-test="input-password_confirmation"]').type(password)
         cy.get('input[data-test="input-bonus"]').click({force: true})
-        //complete registration
+        //submit registration
         cy.get('button[data-test="control-submit"]').click()
       })
 

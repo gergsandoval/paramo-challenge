@@ -16,7 +16,7 @@ describe('Loyality', () => {
         actualPlans.push(plan)
       })
     }})
-    // retrieve expected plans from a json file and compare to the extracted data earlier
+    // retrieve expected plans from a json file and compare them to the extracted data earlier
     cy.fixture('loyality.json').as('expectedPlans').then(expectedPlans => {
         expect(actualPlans).to.eql(expectedPlans)
     })
