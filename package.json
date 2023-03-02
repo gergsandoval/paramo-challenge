@@ -1,0 +1,26 @@
+{
+  "name": "paramo-challenge",
+  "version": "1.0.0",
+  "description": "paramo challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run --browser chrome --headed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gergsandoval/paramo-challenge.git"
+  },
+  "keywords": [
+    "cypress",
+    "web-automation"
+  ],
+  "author": "german sandoval",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gergsandoval/paramo-challenge/issues"
+  },
+  "homepage": "https://github.com/gergsandoval/paramo-challenge#readme",
+  "dependencies": {
+    "cypress": "^12.7.0"
+  }
+}

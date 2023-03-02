@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Diamond",
+    "points": "20000",
+    "about": "20 BTC at a time 1 and 24 hours, 4 and 7 days, 10 to 30 days"
+  },
+  {
+    "name": "Platinum",
+    "points": "20000",
+    "about": "20 BTC at a time 1 and 24 hours, 4 and 7 days, 10 to 30 days"
+  },
+  {
+    "name": "Gold",
+    "points": "20000",
+    "about": "20 BTC at a time 1 and 24 hours, 4 and 7 days, 10 to 30 days"
+  },
+  {
+    "name": "Silver",
+    "points": "20000",
+    "about": "20 BTC at a time 1 and 24 hours, 4 and 7 days, 10 to 30 days"
+  },
+  {
+    "name": "Black",
+    "points": "20000",
+    "about": "20 BTC at a time 1 and 24 hours, 4 and 7 days, 10 to 30 days"
+  }
+]
